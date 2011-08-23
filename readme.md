@@ -8,7 +8,6 @@ simple command line bar chart inspired by (but simpler than) [data_hacks](https:
     > bar 8
     > goo 14" | ruby barchart.rb
 
-    # each * represents a count of 1
     foo [ 1] *
     bar [ 8] ********
     goo [14] **************
@@ -23,7 +22,6 @@ simple command line bar chart inspired by (but simpler than) [data_hacks](https:
     > b.goo 13" | ruby barchart.rb
 
     # A
-    # each * represents a count of 1
     foo [ 1] *
     bar [ 8] ********
     bar [14] **************

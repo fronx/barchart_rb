@@ -18,8 +18,8 @@ rows.group_by { |r| r.ns }.each do |ns, rows|
   value_characters = 80 - max_length
   scale = [(max_value.to_f / value_characters).ceil, 1].max
 
-  puts "# #{ns.upcase}" if ns
-  puts "# each * represents a count of %d" % scale
+  ns && puts("# #{ns.upcase}")
+  (scale > 1) && puts("# each * represents a count of %d" % scale)
 
   format = "%#{max_length}s [%#{max_value.to_s.length}d] %s"
   rows.each do |row|
