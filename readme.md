@@ -24,7 +24,7 @@ simple command line bar chart inspired by (but simpler than) [data_hacks](https:
     # A
     foo [ 1] *
     bar [ 8] ********
-    bar [14] **************
+    goo [14] **************
 
     # B
     # each * represents a count of 6
